@@ -1,6 +1,9 @@
 cd git_challenge
-git add hallo_world.txt
-git commit -m "hallo_world.txtを追加"
-git add hallo_world.txt
+git init
+git add hello_world.txt
+git diff -staged
+git commit -m "hello_world.txtを追加"
+git add hello_world.txt
+git diff -staged
 git commit -m "日本語訳を追記"
 git log --oneline
